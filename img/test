@@ -1,7 +1,0 @@
-request = Contentful::Management::Request.new(
-  "/#{space.id}/assets/#{asset.id}/files/#{locale}/process",
-  {},
-  nil,
-  version: asset.sys[:version]
-)
-request.put
